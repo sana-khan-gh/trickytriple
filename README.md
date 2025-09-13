@@ -19,8 +19,11 @@ This project contains simple command-line applications written in Java:
 1. **Clone the Repository**:
    ```bash
     git clone git@github.com:sana-khan-gh/trickytriple.git
-    cd trickytriple
     ```
+   Change directory to move to the project root:
+   ```bash
+    cd trickytriple
+   ```
 
 2. **Build the Project**
     ```bash
@@ -41,6 +44,6 @@ mvn exec:java -Dexec.mainClass="org.example.application.cli.TicTacToe"
 
 - **Todo List App**:
 ```bash
-mvn exec:java -Dexec.mainClass="org.example.application.cli.TicTacToe"
+mvn exec:java -Dexec.mainClass="org.example.application.cli.TodoListApp"
 ```
 
